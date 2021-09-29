@@ -17,6 +17,8 @@ describe('The Calculator', () => {
       expect(calculator.sum(49, 50)).to.equal(99);
     });
     //---------------------divisão
+    const a = 21
+    const b = 7
     it('deve dividir 10 por 5, retornando 2', () => { 
       expect(calculator.divide(10, 5)).to.equal(2);
     });
