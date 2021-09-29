@@ -14,5 +14,8 @@ describe('The Calculator', () => {
     it('deve somar 49 com 50 e retornar 99', () => {
       expect(calculator.sum(49, 50)).to.equal(99);
     });
+    it('deve dividir 10 por 5', () => { 
+      expect(calculator.divide(10, 5)).to.equal(2);
+    });
   
 });
